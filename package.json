@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_website_v1.5",
+  "version": "1.0.0",
+  "description": "Portfolio Website v1.5",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Raymond Sotto",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
