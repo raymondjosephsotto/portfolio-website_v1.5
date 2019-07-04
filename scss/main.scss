@@ -25,9 +25,12 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    line-height: 0.9;
+    letter-spacing: -3px;
   }
 
   &.sm-heading {
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
