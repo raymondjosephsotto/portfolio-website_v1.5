@@ -97,10 +97,10 @@ body {
   color: white;
   height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background6.jpg);
+    background: url(../img/background.jpg);
     b7ckground-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -174,6 +174,15 @@ main {
     font-size: 1.5rem; }
     .about-info .bio p {
       line-height: 1; }
+    .about-info .bio .skills {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      height: 100%;
+      list-style-type: none; }
+      .about-info .bio .skills li {
+        padding: 0.2rem 0.8rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -184,6 +193,9 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job h4,
+    .about-info .job h5 {
+      font-weight: normal; }
     .about-info .job p {
       line-height: 1.4; }
 
